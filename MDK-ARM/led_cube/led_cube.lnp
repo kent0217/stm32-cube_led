@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"led_cube\stm32f1xx_hal_msp.o"
+"led_cube\main.o"
+"led_cube\stm32f1xx_it.o"
+"led_cube\stm32f1xx_hal_flash_ex.o"
+"led_cube\stm32f1xx_hal.o"
+"led_cube\stm32f1xx_hal_cortex.o"
+"led_cube\stm32f1xx_hal_tim.o"
+"led_cube\stm32f1xx_hal_pwr.o"
+"led_cube\stm32f1xx_hal_tim_ex.o"
+"led_cube\stm32f1xx_hal_dma.o"
+"led_cube\stm32f1xx_hal_flash.o"
+"led_cube\stm32f1xx_hal_gpio.o"
+"led_cube\stm32f1xx_hal_rcc_ex.o"
+"led_cube\stm32f1xx_hal_rcc.o"
+"led_cube\stm32f1xx_hal_gpio_ex.o"
+"led_cube\startup_stm32f103xe.o"
+"led_cube\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "led_cube\led_cube.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "led_cube.map" -o led_cube\led_cube.axf
