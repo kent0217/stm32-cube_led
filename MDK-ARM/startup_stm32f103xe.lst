@@ -580,17 +580,17 @@ ARM Macro Assembler    Page 9
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=led_cube\startup_stm32f103xe.d -oled_cube\startup_stm32f103xe.o -I
-C:\Users\Leedarson-HW\Desktop\led_cube\led_cube\MDK-ARM\RTE -IC:\Keil_v5\ARM\PA
-CK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
-\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
+C:\Users\Leedarson-HW\Desktop\SMT32_practice\led_cube\led_cube\MDK-ARM\RTE -IC:
+\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM3
+2F1xx_DFP\2.2.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__U
 
 
 
 ARM Macro Assembler    Page 10 
 
 
-SETA 520" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_HD SETA 1" --list=s
-tartup_stm32f103xe.lst startup_stm32f103xe.s
+VISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_HD S
+ETA 1" --list=startup_stm32f103xe.lst startup_stm32f103xe.s
 
 
 
